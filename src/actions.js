@@ -1,4 +1,4 @@
-const key = 'LEls10pQ1lqL1lxLehiPoD0P61SpGcQK'
+const key = 'SRExvts215tmXvW0Aqsoob0QZJEbOk3v'
 
 export const saveData = (data, dispatch) => (
   fetch(`https://api.giphy.com/v1/gifs/search?api_key=${key}&q=${data}`,
