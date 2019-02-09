@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
-import counters from './counters'
+import giphy from './giphy'
 
 export default combineReducers({
-  counters
+  giphy
 })
